@@ -28,3 +28,12 @@
   - Identificar recursos na hora de atualizar ou deletar
 - Request Body:
   - Conteúdo na hora de criar ou editar um recurso
+
+# Middlewares
+
+- Ele é um interceptador de requisições
+  - Ele pode:
+    - Interromper totalmente uma requisição
+    - Alterar dados da requisição
+- Quando vou utilizar um middleware?
+  - Quando necessitarmos que algum trecho de código seja disparado de forma automática em algumas requisições
