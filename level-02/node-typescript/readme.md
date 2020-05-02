@@ -1,4 +1,4 @@
-# Construindo primeiro projeto Node.js com Typescript
+# Estruturando primeiro projeto Node.js com Typescript
 
 - Dependencias de desenvolvimento:
   - express
@@ -32,4 +32,34 @@
 "dev:server": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts"
 ```
 
-10.
+# EditorConfig
+
+O EditorConfig serve para padronizar o estilo de código entre ide's para que não sejam geradas diferenças em um projeto codificado por multiplos desenvolvedores.
+
+1. Primeiro é necessário instalar o plugin do VSCODE EditorConfig
+2. Após clicar com o botão direito do mouse sobre a raíz do projeto e após em generate .editorconfig e será criado o arquivo `.editorconfig` na raíz do projeto.
+3. Mudar as configurações:
+
+```.json
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+```
+
+# ESLINT
+
+O ESLint padroniza automaticamente o estilo de código, configurações como aspas, ponto e vírgula, etc...
+
+- Instalar o ESLINT como dependência de desenvolvimento
+  `yarn add eslint -D`
+- Inicializar o ESLINT
+  `yarn eslint --init`
+- Escolher as opções
+  1. Checar sintaxe, encontrar problemas e forçar padrão de código
+  2. Javascript modules (import/export)
+  3. None of these
+  4. Yes para usando typescript
+  5. Selecionar Node com espaço
+  6. Utilizar guia de estilo popular do Airbnb
+  7. Utilizar formato JSON
+  8. Instalar pacotes mostrados via yarn
