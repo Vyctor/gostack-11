@@ -63,3 +63,17 @@ O ESLint padroniza automaticamente o estilo de código, configurações como asp
   6. Utilizar guia de estilo popular do Airbnb
   7. Utilizar formato JSON
   8. Instalar pacotes mostrados via yarn
+
+# Importanto arquivos .ts
+
+1. Instalar como dependência de desenvolvimento para o projeto entender as importações de arquivos `.ts`
+   `eslint-import-resolver-typescript`
+2. Adicionar no arquivo `.eslint.json`
+
+```json
+"settings": {
+  "import/resolver": {
+    "typescript": {}
+  }
+}
+```
