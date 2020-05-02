@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#7159c1',
   },
   project: {
-    fontSize: 25,
+    fontSize: '25',
     color: '#fff',
     marginLeft: 10,
   },
