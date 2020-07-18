@@ -1,7 +1,11 @@
-# GoStack
+ <h1 align="center">
+	<img alt="GoStack" src="https://lh3.googleusercontent.com/proxy/RHhQsmNJNCcWZQ10B3A1PObdkta4UhYzy3dpqJXCOl9zM-cz0KZf2ytj_0_V6AJNoFG-O5h8lMDE5s_9LOqlMMy46nsUXzhn8BcrxEw5wbvkUELEwcswcsFP9mi5RqcTWmEUmV4m5RzfeOoQMxlFeVY2o2XShdQ" width="200px" />
+</h1> 
 
+# 👨🏻‍💻 Bootcamp Rocketseat GoStack 
+Code developed in Rocketseat's GoStack bootcamp modules 
 
-## Bootcamp GoStack Rocketseat Primeira Semana
+# Bootcamp GoStack Rocketseat Primeira Semana
 
 ## Conteúdo de Nodejs da primeira semana
 
@@ -61,7 +65,25 @@
 
 - SOLID
 - REPOSITORY
-- SERVICE
+- SERVICE 
+
+----------
+
+# Modules files
+
+- [Module 1](https://github.com/Vyctor/gostack-11/tree/master/level-01)
+  
+- [Module 2](https://github.com/Vyctor/gostack-11/tree/master/level-02)
+  
+- [Module 3](https://github.com/Vyctor/gostack-11/tree/master/level-03)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made by Vyctor Guimarães 👋 [See my linkedin](https://www.linkedin.com/in/vyctorguimaraes/)
 
 
 
